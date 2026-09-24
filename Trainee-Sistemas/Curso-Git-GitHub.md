@@ -17,3 +17,15 @@
 - **Repositório:** rastreia todas as mudanças feitas no arquivos do seu projeto, construindo um histórico ao longo do tempo
 - **Commit:** um marco histórico no seu projeto, como se fosse um "save" nos jogos de videogame. Te permite "voltar" no tempo para consultar diferentes versões importantes do seu projeto.
 - **Branch:** linha de desenvolvimento independente que permite alterar códigos sem mexer na versão principal do projeto.
+
+# #3 Instalação do Git e alguns comandos no Terminal
+
+- ls: listar arquivos e diretórios do diretório atual
+- cd {nome-do-diretorio}: acessar diretório
+- cd..: voltar para o diretório anterior, "pai"
+- ni {nome-arquivo}: criar arquivo
+- rm {nome-arquivo}: remover arquivo
+- mkdir {nome-diretório}: criar novo diretório
+- nano {nome-do-arquivo} (não instalado no Windows): editor de texto para terminal
+- cat {nome-do-arquivo} (não instalado no Windows): exibir conteúdo do arquivo
+
