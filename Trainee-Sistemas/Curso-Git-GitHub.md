@@ -29,3 +29,32 @@
 - nano {nome-do-arquivo} (não instalado no Windows): editor de texto para terminal
 - cat {nome-do-arquivo} (não instalado no Windows): exibir conteúdo do arquivo
 
+# #4 Criando repositórios
+
+Comando utilizados:
+-  git --version //versão do git, confirma instalação;
+-  mkdir projeto-1 //cria o diretório projeto-1;
+-  mkdir projeto-02 //cria o diretório projeto-02 -> nome diferente propositalmente;
+-  mv projeto-02 projeto-2 //mv renomeia ou move o arquivo/diretório de lugar;
+-  cd projeto-1 //entra no diretório projeto-1;
+-  git init //cria repositório;
+-  ls //inicialmente, não resulta em nada -> o arquivo .git é ocultado pelo sistema operacional;
+-  ls -Force //agora, lista itens ocultados (.git);
+-  cd ../projeto-2 //volta para o diretório "pai" e entra para projeto-2;
+-  ni index.html //cria arquivo;
+-  ni style.css //cria arquivo;
+-  git init //cria repositório -> nesse momento o nome dos arquivos criados fica verde, esses arquivos agora estão no estado modificado;
+
+# #5 Colocando arquivos no stage
+
+1. Continuamos a partir dos arquivos/diretórios/repositórios criados na aula #4.
+2. Inicialmente, na pasta projeto-1, criamos o arquivo index.html (ni index.html) e usamos o comando git add index.html para colocar esse arquivo no stage.
+3. Com o comando git status, conseguimos observar que o arquivo foi colocado no stage.
+4. Para tirar o arquivo do stage, utilizamos o comando git rm --cached index.html.
+--
+5. Agora na pasta projeto-2, com dois arquivos criados, usamos git add . para adicionarmos todos os arquivos no stage de uma vez.
+
+# #6 primeiro COMMIT.
+
+Após colocar o arquivo no stage, para dar commit utilizamos o comando git commit -m "mensagem";
+Para conferir o histórico de commit's, usamos o comando git log ou git log --oneline (para a versão condensada);
